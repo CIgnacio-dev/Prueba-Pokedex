@@ -1,0 +1,39 @@
+@import "vendors/node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900i|Roboto:300,400&display=swap');
+@import
+    'abstracts/variable',
+    'abstracts/functions',
+    'abstracts/mixins',
+    'abstracts/placeholders';
+
+@import
+    'vendors/bootstrap',
+    'vendors/jquery-ui';
+
+@import
+    'base/reset',
+    'base/typography';
+
+@import
+    'components/buttons',
+    'components/carousel',
+    'components/cover',
+    'components/dropdown';
+
+@import
+    'layout/footer',
+    'layout/forms',
+    'layout/grid',
+    'layout/header',
+    'layout/navigation',
+    'layout/sidebard',
+    'layout/main-section';
+
+@import
+    'themes/admin',
+    'themes/theme';
+
+@import
+    'pages/contact',
+    'pages/home';
+

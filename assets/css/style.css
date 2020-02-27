@@ -1,0 +1,40 @@
+body{
+    background-image: url(../image/pokedex.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-color: rgb(236, 224, 56);
+}
+.pokewola img{
+    height: 200px;
+}
+.pokewola button{
+    width: 1rem;
+    margin-left: -13%;
+    border: transparent;
+    border-radius: 90%;
+    position: relative;
+    top: -75px;
+}
+#visualizar__pokemon{
+    margin-left: 75%;
+    margin-top: -32rem;
+    z-index: 1;
+    
+}
+
+#footer{
+    margin-bottom: 0%;
+   
+}
+.visualizacion img{
+    position: absolute;
+    left: -10%;
+    width: 62%;
+    margin-top: -22%;
+    height: 110%;
+    z-index: -1;
+
+}
+.canvasjs-chart-container{
+    margin-bottom: 11%;
+}

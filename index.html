@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <title>Pokedex.org</title>
+  <meta name="description" content="A mini-encyclopedia of Pokémon species, types, evolutions, and moves.">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#a040a0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="manifest.json"/>
+  <link rel="dns-prefetch" href="https://nolan.cloudant.com">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://canvasjs.com/assets/css/jquery-ui.1.11.2.min.css" rel="stylesheet" />
+</head>
+<body>
+<header id="header">
+  <div class="mui-appbar mui--appbar-line-height">
+    <div class="mui-container-fluid">
+      <a class="sidedrawer-toggle mui--visible-xs-inline-block js-show-sidedrawer hover-shadow">
+        <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 23" width="17" height="23"><style>.st0{fill:#fff;}</style><path class="st0" d="M0 10.5h17v2H0zM0 5h17v2H0zM0 16h17v2H0z"/></svg>
+      </a>
+      <a class="sidedrawer-toggle mui--hidden-xs js-hide-sidedrawer hover-shadow">
+        <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 23" width="17" height="23"><style>.st0{fill:#fff;}</style><path class="st0" d="M0 10.5h17v2H0zM0 5h17v2H0zM0 16h17v2H0z"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+<div class="rotom">
+
+<div id="content-wrapper" style="padding: 16rem; margin-left: -6rem; margin-top: 2rem;">
+  <div class="mui--appbar-height"></div>
+  <div class="mui-container-fluid">
+    <br>
+
+    <h1 id="main-title">POKEDEX</h1>
+
+    <div class="mui-textfield">
+      <input id="buscar" type="search" placeholder="Número o nombre Pokémon"
+             spellcheck="false" autocorrect="off" autocomplete="off"/>
+      <label for="buscar" class="sr-only">Press Pokeball</label>
+    </div>
+    <div class=pokewola>
+      <img src="assets/image/pokeball.jpg">
+      <button id="pokes"style="cursor:pointer;" >.</button>
+    </div>
+    <div class="row" id="visualizar__pokemon">
+    </div> 
+
+    <div id="chartContainer" style="margin-bottom: 11%">
+    </div> <!-- GRAFICO -->
+  
+
+    <div id="monsters-list-wrapper">
+      <ul id="monsters-list"></ul>
+      <div id="progress-mask"></div>
+    </div>
+  </div>
+</div>
+<footer id="footer">
+ 
+</footer>
+<div id="detail-view-container" class="hidden">
+  <div id="detail-view"></div>
+</div>
+<!-- csnvas JS Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/jquery.canvasjs.min.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="assets/js/index.js"></script>
+</body>
+</html>
